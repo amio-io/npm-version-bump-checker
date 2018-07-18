@@ -1,0 +1,19 @@
+{
+  "name": "npm-version-bump-checker",
+  "version": "1.0.3",
+  "description": "Validate semver update before publishing to npm registry",
+  "bin": "./src/index.js",
+  "main": "./src/index.js",
+  "scripts": {
+    "can-publish": "npm info $npm_package_name version | npm-version-bump-checker",
+    "can-publish-win": "npm info %npm_package_name% version | npm-version-bump-checker",
+    "test": "mocha test/*.test.js"
+  },
+  "author": "Amio.io",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "semver": "^5.5.0"
+  }
+}
