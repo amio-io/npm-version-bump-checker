@@ -3,9 +3,9 @@ Checks if version in local package.json is higher than in npm
 
 ## Description
 
-This tool will throw an error containing the remote and local version when **local version <= remote version**
+This utility will throw an error when **local version <= remote version**
 
-It can help you ensure the version of your package in `package.json` was increased before merge to master
+You can pair this tool with CI/CD tools to ensure your `package.json` version is properly increased before being merged to master.
 
 ## Installation
 
