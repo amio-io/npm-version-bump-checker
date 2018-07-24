@@ -10,7 +10,7 @@ You can pair this tool with CI/CD tools to ensure your `package.json` version is
 ## Installation
 
   ```bash
-  npm install npm-version-bump-checker --save
+  npm install npm-version-bump-checker --save-dev
   ```
 
 ## Usage
